@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Xibit - Automation Builder SAAS Application
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Xibit is a web-based Automation Builder SAAS (Software as a Service) application designed to streamline and automate various tasks and workflows. It provides users with the ability to create and manage automation workflows through a user-friendly interface. The application integrates a range of technologies to offer a comprehensive solution for automation needs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **User Authentication:** Utilizes Clerk Authentication for secure user login and authentication.
+- **Data Processing:** Integrates Neon Tech for efficient processing and manipulation of data.
+- **File Management:** Uses Uploadcare for handling file uploads and management.
+- **Local Development:** Incorporates Ngrok for secure tunneling to local development environments.
+- **Frontend Development:** Built with Next.js 14 for a modern and responsive user interface.
+- **Payment Processing:** Integrates Stripe for handling subscription payments and transactions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/your-username/xibit.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Configure environment variables:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Create a `.env` file in the root directory and add the following variables:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```env
+   CLERK_API_KEY=your_clerk_api_key
+   UPLOADCARE_PUBLIC_KEY=your_uploadcare_public_key
+   STRIPE_PUBLIC_KEY=your_stripe_public_key
+   ```
+
+4. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize the content and structure to better fit your project and its specific features and requirements.
