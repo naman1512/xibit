@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -78,7 +78,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        <motion.div className="flex flex-row mb-20 space-x-20 ">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -108,7 +108,7 @@ export const Header = () => {
         The Ultimate <br /> Automation Studio
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-      Xibit, meticulously crafted by <a href='https://www.linkedin.com/in/naman-bhatt-7881581b1/'>NAMAN BHATT</a>, is your gateway to task automation and enhanced efficiency. Elevate your productivity, supercharge your performance with Xibit.
+      Xibit, meticulously crafted by <b> <a href='https://www.linkedin.com/in/naman-bhatt-7881581b1/'>NAMAN BHATT</a> </b>, is your gateway to task automation and enhanced efficiency. Elevate your productivity, supercharge your performance with Xibit.
       </p>
     </div>
   )
