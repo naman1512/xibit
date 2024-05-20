@@ -8,7 +8,7 @@ import { SpotlightPreview } from '@/components/global/light-title'
 import { Button } from '@/components/ui/button'
 import { clients, products } from '@/lib/constant'
 import { CheckIcon } from 'lucide-react'
-import Image from 'next/image'
+
 
 export default function Home() {
  
@@ -39,8 +39,11 @@ export default function Home() {
         <HeroParallax products={products}></HeroParallax>
       </section>
 
-      <section className="mt-[0px]">
+      <section className="mt-[40px]">
         <LampComponent />
+        
+        {/* Cards for pricing */}
+
         <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72">
           <CardContainer className="inter-var ">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">

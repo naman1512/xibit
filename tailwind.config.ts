@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
 
+
 const config = {
   darkMode: ['class'],
   content: [
@@ -142,6 +143,7 @@ const config = {
 //     ':root': newVars,
 //   })
 // }
+
 
 
 export default config
